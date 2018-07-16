@@ -36,7 +36,7 @@ function mouseDragged() {
 		shape = random(0,3);
 	} else if(shape >= 1 && shape <2 ) {
 		rect(mouseX, mouseY, random(10, 20), random(10,20));
-		shape = random(0,3);
+		shape = random(0, 3);
 	} else if( shape >=2 ) {
 		change = random(10,20);
 		triangle(mouseX - change, mouseY + change , mouseX, mouseY - change, mouseX + change, mouseY + change);
@@ -44,9 +44,9 @@ function mouseDragged() {
 	}
 }
 
-function mouseReleased(){
+/*function mouseReleased(){
 	colo = color(random(0, 255), random(0, 255), random(0, 255));
-}
+}*/
 
 function mouseClicked(){
 	// back = color(random(0, 255), random(0, 255), random(0, 255));
